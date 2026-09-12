@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: bot_hoster
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: YOUR_USERNAME
+        sync: false
+      - key: UPDATES_CHANNEL
+        sync: false
+      - key: KEEP_ALIVE
+        value: "true"
