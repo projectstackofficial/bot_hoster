@@ -2251,7 +2251,7 @@ def _logic_send_welcome (message ):
 
     welcome_msg =(
     f"╔═════════════════════╗\n"
-    f"      🚀 *Bot Hoster - Private*\n"
+    f"      🚀 *Bot Hoster*\n"
     f"╚═════════════════════╝\n"
     f"👋 Hey *{user_name }*, welcome back!\n\n"
     f"──────────────────────\n"
@@ -2732,7 +2732,7 @@ def _logic_help (message ):
     help_msg =(
     "       📖 Help & Guide\n"
     "──────────────────────\n"
-    "🤖 *Bot Hoster - Private* runs your Telegram bots 24/7 — just upload and go!\n\n"
+    "🤖 *Bot Hoster* runs your Telegram bots 24/7 — just upload and go!\n\n"
     "──────────────────────\n"
     "⚡ *Quick Commands*\n\n"
     "📤 `/uploadfile` — Upload a script\n"
@@ -5036,7 +5036,7 @@ if __name__ =='__main__':
         init_db ()
         load_data ()
 
-    logger .info ("="*50 +"\n🤖 Bot Hoster - Private Starting...\n"+
+    logger .info ("="*50 +"\n🤖 Bot Hoster Starting...\n"+
     f"🐍 Python: {sys .version .split ()[0 ]}\n"
     f"🔧 Base Dir: {BASE_DIR }\n📁 Upload Dir: {UPLOAD_BOTS_DIR }\n"
     f"📊 Data Dir: {IROTECH_DIR }\n🔑 Owner ID: {OWNER_ID }\n"
